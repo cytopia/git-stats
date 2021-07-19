@@ -1,0 +1,90 @@
+---
+
+# Destination for temporary storing (cloning) the repositories for analysis
+tmpdir: /home/cytopia/repo/cytopia/git-stats/_build
+
+wordlist:
+  # ---- common ----#
+  - security
+  - hotfix
+  - fix
+  - wip
+  - temporary
+  - temporarily
+  - bug
+  - buggy
+  - hack
+  - crash
+  - disable
+  - enable
+  - comment
+  - update
+  - upgrade
+  - typo
+  - issue
+  - fatal
+  - exception
+  - documentation
+  - improve
+  - clean
+  # ---- security ----#
+  - password
+  - token
+  - secret
+  - ssh
+  - private
+  - backdoor
+  # ---- pro ----#
+  - boss
+  - '1337'
+  - 'l337'
+  - 'l33t'
+  - '133t'
+  - haxor
+  - haxxor
+  - h4x0r
+  - suxor
+  - suxxor
+  - n00b
+  - pr0n
+  - pwn
+  - wayne
+  # ---- religious ----#
+  - jesus
+  - god
+  # ---- swear words ----#
+  - facial
+  - shit
+  - shithead
+  - fuck
+  - fuckhead
+  - motherfuck
+  - bitch
+  - bitchass
+  - bitcharse
+  - bitchfuck
+  - butt
+  - buttfuck
+  - butthead
+  - damn
+  - cunt
+  - pussy
+  - dick
+  - dickhead
+  - prick
+  - ass
+  - asshole
+  - arse
+  - arsehole
+  - crap
+  - bastard
+  - hell
+  - piss
+  - suck
+  - whore
+
+
+# List of repositories to check (http(s)?:// or user@host:/ will work)
+repositories:
+  - git@github.com:cytopia/git-stats.git
+  - https://github.com/cytopia/devilbox
